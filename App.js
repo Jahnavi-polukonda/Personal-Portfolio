@@ -169,7 +169,7 @@ function App() {
       >
         <h2 className="text-3xl font-bold mb-6">Contact</h2>
         <p className="mb-2">📧 Email: jahanavip2005@gmail.com</p>
-        <p className="mb-4">📞 Phone: +91-9876543210</p>
+        <p className="mb-4">📞 Phone: +91-8074274816</p>
         <div className="flex justify-center gap-4">
           <a
             href="https://github.com/Jahnavi-polukonda"
