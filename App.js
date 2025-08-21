@@ -21,16 +21,14 @@ function App() {
           Aspiring Software Developer specializing in C++ and DSA
         </p>
         <div className="flex gap-4">
-          {/* Resume Button (opens PDF in new tab) */}
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1wpZzpaWaUE18Vfo7gNXAcCY5Np_t2WDv/preview"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-indigo-600 text-white px-4 py-2 rounded-lg shadow hover:bg-indigo-700"
           >
             Resume
           </a>
-
           <a
             href="https://github.com/Jahnavi-polukonda"
             target="_blank"
@@ -83,7 +81,7 @@ function App() {
           </div>
           <div className="p-6 bg-white rounded-xl shadow">
             <h3 className="font-semibold mb-2">Tools</h3>
-            <p>VS Code, Git</p>
+            <p>VS Code, Git, Linux</p>
           </div>
           <div className="p-6 bg-white rounded-xl shadow">
             <h3 className="font-semibold mb-2">Soft Skills</h3>
@@ -106,8 +104,7 @@ function App() {
               Online Payment Fraud Detection using ML Techniques
             </h3>
             <p className="text-sm text-gray-600">
-              Built with Python & ML to detect fraudulent transactions and
-              improve security.
+              Built with Python & ML to detect fraudulent transactions.
             </p>
             <a
               href="https://github.com/Jahnavi-polukonda/Online-payment-fraud-detection-"
@@ -124,7 +121,7 @@ function App() {
               Created with React & Tailwind to showcase skills and projects.
             </p>
             <a
-              href="https://github.com/Jahnavi-polukonda"
+              href="https://github.com/Jahnavi-polukonda/Personal-Portfolio"
               target="_blank"
               rel="noopener noreferrer"
               className="text-indigo-600 hover:underline"
@@ -144,8 +141,7 @@ function App() {
       >
         <h2 className="text-3xl font-bold mb-6">Education</h2>
         <p>
-          B.Tech in Information Technology, Prasad V Potluri Siddhartha
-          Institute Of Technology, 2026
+          B.Tech in Information Technology, Prasad V Potluri Siddhartha Institute Of Technology, 2026
         </p>
       </motion.section>
 
@@ -172,7 +168,8 @@ function App() {
         transition={{ duration: 1 }}
       >
         <h2 className="text-3xl font-bold mb-6">Contact</h2>
-        <p className="mb-4">📧 Email: jahanavip2005@gmail.com</p>
+        <p className="mb-2">📧 Email: jahanavip2005@gmail.com</p>
+        <p className="mb-4">📞 Phone: +91-9876543210</p>
         <div className="flex justify-center gap-4">
           <a
             href="https://github.com/Jahnavi-polukonda"
