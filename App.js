@@ -203,6 +203,11 @@ function App() {
             💡 Participated in Flipkart GRiD 5.0 – Software Development Track,
             organised by Flipkart (2024).
           </li>
+           <li>
+            🚀 Participated in the 8-Hours Hackathon (Java Fullstack) 2025 organized 
+            by the Department of Information Technology, PVP Siddhartha Institute of 
+            Technology on 24th July 2025.
+          </li>
         </ul>
       </motion.section>
 
