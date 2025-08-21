@@ -12,8 +12,8 @@ function App() {
         transition={{ duration: 1 }}
       >
         <img
-          src="https://via.placeholder.com/150"
-          alt="Profile"
+          src="/myphoto.jpg"   // ✅ Place your image in public/ folder
+          alt="Jahnavi"
           className="w-32 h-32 rounded-full border-4 border-indigo-500 mb-6"
         />
         <h1 className="text-4xl font-bold mb-2">Hi, I’m Jahnavi</h1>
@@ -99,12 +99,21 @@ function App() {
       >
         <h2 className="text-3xl font-bold text-center mb-10">Projects</h2>
         <div className="space-y-6">
+          {/* Project 1 */}
           <div className="p-6 bg-gray-100 rounded-xl shadow">
             <h3 className="font-semibold">
               Online Payment Fraud Detection using ML Techniques
             </h3>
-            <p className="text-sm text-gray-600">
-              Built with Python & ML to detect fraudulent transactions.
+            <p className="text-sm text-gray-600 mb-2">
+              ⚡ A machine learning project built with Python to detect fraudulent online transactions.
+            </p>
+            <p className="text-sm text-gray-600 mb-2">
+              💡 Motivation: Online payments are increasing rapidly, but so are fraudulent activities.
+              Detecting fraud in real-time is critical for banks and customers.
+            </p>
+            <p className="text-sm text-gray-600 mb-2">
+              🌍 Importance: This project improves financial security by reducing risks of fraud,
+              protecting users, and helping institutions save losses.
             </p>
             <a
               href="https://github.com/Jahnavi-polukonda/Online-payment-fraud-detection-"
@@ -115,10 +124,18 @@ function App() {
               GitHub Link
             </a>
           </div>
+
+          {/* Project 2 */}
           <div className="p-6 bg-gray-100 rounded-xl shadow">
             <h3 className="font-semibold">Portfolio Website</h3>
-            <p className="text-sm text-gray-600">
-              Created with React & Tailwind to showcase skills and projects.
+            <p className="text-sm text-gray-600 mb-2">
+              ⚡ A personal portfolio built using React & Tailwind CSS.
+            </p>
+            <p className="text-sm text-gray-600 mb-2">
+              💡 Motivation: To showcase my skills, projects, and achievements in a clean, professional way.
+            </p>
+            <p className="text-sm text-gray-600 mb-2">
+              🌍 Importance: Acts as a digital resume and first impression for recruiters and interviewers.
             </p>
             <a
               href="https://github.com/Jahnavi-polukonda/Personal-Portfolio"
@@ -140,9 +157,26 @@ function App() {
         transition={{ duration: 1 }}
       >
         <h2 className="text-3xl font-bold mb-6">Education</h2>
-        <p>
-          B.Tech in Information Technology, Prasad V Potluri Siddhartha Institute Of Technology, 2026
+        <p className="text-lg font-medium">
+          Prasad V. Potluri Siddhartha Institute Of Technology
         </p>
+        <p>Bachelor of Information Technology - CGPA : 8.86 (2026)</p>
+      </motion.section>
+
+      {/* Certifications */}
+      <motion.section
+        className="py-20 px-6 text-center"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
+        <h2 className="text-3xl font-bold mb-6">Certifications</h2>
+        <ul className="space-y-2 text-gray-700">
+          <li>✅ Smart-Interviews: Data Structures and Algorithms</li>
+          <li>✅ NPTEL: Problem Solving through Programming using C</li>
+          <li>✅ NPTEL: Data Base Management System</li>
+          <li>✅ Infosys Springboard – Programming Using C++, Basics of Python</li>
+        </ul>
       </motion.section>
 
       {/* Achievements */}
@@ -152,11 +186,17 @@ function App() {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <h2 className="text-3xl font-bold mb-6">Achievements & Certifications</h2>
+        <h2 className="text-3xl font-bold mb-6">Achievements</h2>
         <ul className="space-y-2 text-gray-700">
-          <li>🏆 Hackathon Participant</li>
-          <li>💡 Solved 200+ problems on LeetCode</li>
-          <li>📜 NPTEL / Coursera Certifications</li>
+          <li>
+            🏆 Presented a poster titled “Cloud-Based e-Learning Platforms” at
+            EPISTEMICON-2K24, a National Level Technical Symposium, Andhra Loyola
+            Institute of Engineering and Technology (2024).
+          </li>
+          <li>
+            💡 Participated in the Flipkart GRiD 5.0 – Software Development Track
+            (E-Commerce & Tech Quiz), organised by Flipkart (2024).
+          </li>
         </ul>
       </motion.section>
 
